@@ -62,7 +62,7 @@ public class LockScreenActivity extends SherlockActivity implements ICacheWordSu
         ThemeableActivity.setBackgroundImage(this);
 
         
-        getSherlock().getActionBar().hide();
+//        getSherlock().getActionBar().hide();
         
         setContentView(R.layout.activity_lock_screen);
         

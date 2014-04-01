@@ -66,6 +66,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
+/**
+ * @author Mark Guo
+ * 
+ * Fucking Ady
+ * 2014-3-27 ÏÂÎç6:10:23
+ */
+
 public class AccountActivity extends Activity {
 
     public static final String TAG = "AccountActivity";
@@ -370,6 +378,13 @@ public class AccountActivity extends Activity {
         });
 
         mBtnSignIn.setOnClickListener(new OnClickListener() {
+
+            /* (non-Javadoc)
+             * @see android.view.View.OnClickListener#onClick(android.view.View)
+             * @author Mark Guo
+             * Fuck Kelly
+             * 2014-3-27 ÏÂÎç6:13:08
+             */
             @Override
             public void onClick(View v) {
 
@@ -395,6 +410,9 @@ public class AccountActivity extends Activity {
                 if (mIsNewAccount)
                 {
                     mDomain = (String)mSpinnerDomains.getSelectedItem();
+
+                    
+//                    mDomain = "localhost";
                     String fullUser = mEditUserAccount.getText().toString();
                     
                     if (fullUser.indexOf("@")==-1)
@@ -727,7 +745,15 @@ public class AccountActivity extends Activity {
             settings.setRequireTls(true); //facebook TLS now seems to be on
             settings.setTlsCertVerify(true); //but cert verify can still be funky - off by default
             settings.setAllowPlainAuth(false);
-        } 
+        } else if (domain.equals("localhost")) {
+            settings.setDoDnsSrv(false);
+            settings.setDomain(domain);
+            settings.setPort(DEFAULT_PORT);
+            settings.setServer("115.28.225.63");
+            settings.setRequireTls(true);
+            settings.setTlsCertVerify(true);
+            settings.setAllowPlainAuth(false);
+        }
         else if (domain.equals("jabber.ccc.de")) {
             
             if (settings.getUseTor())

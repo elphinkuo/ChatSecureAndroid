@@ -174,6 +174,15 @@ public class ImApp extends Application {
         return sImApp;
     }*/
 
+    
+    public static ImApp getApplication() {
+        // TODO should this be synchronized?
+        if (sImApp == null) {
+            new ImApp();
+        }
+
+        return sImApp;
+    }
     /**
      * Initialize performs the manual ImApp instantiation and initialization.
      * When the ImApp is started first in the process, the ImApp public

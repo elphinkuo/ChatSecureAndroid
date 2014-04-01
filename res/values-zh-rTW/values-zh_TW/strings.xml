@@ -8,7 +8,7 @@
   <string name="wo_perm_desc">
         Allows applications to write data to the IM content provider.
     </string>
-  <string name="im_label">Gibberbot</string>
+  <string name="im_label">Qiixin</string>
   <string name="landing_page_title">Chat - Select an account</string>
   <string name="menu_about">About</string>
   <string name="menu_add_account">Add account</string>
@@ -262,7 +262,7 @@
   <string name="menu_contact_list">Contact List</string>
   <string name="menu_view_encrypt_chat">Encrypt On/Off</string>
   <string name="use_tor">Connect via Tor (Requires Orbot app)</string>
-  <string name="app_name">Gibberbot</string>
+  <string name="app_name">Qiixin</string>
   <string name="welcome_first">First time using Gibberbot?</string>
   <string name="welcome_skip">Can\'t wait to get started?</string>
   <string name="welcome_about">Get Started</string>

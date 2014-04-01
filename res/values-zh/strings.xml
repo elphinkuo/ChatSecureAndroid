@@ -4,7 +4,7 @@
   <string name="ro_perm_desc">允许应用程序读取数据IM内容提供商。</string>
   <string name="wo_perm_label">写即时消息</string>
   <string name="wo_perm_desc">允许程序写入数据即时信息内容提供商。</string>
-  <string name="im_label">Gibberbot</string>
+  <string name="im_label">启信</string>
   <string name="landing_page_title">聊天 - 选择一个帐户</string>
   <string name="menu_about">About</string>
   <string name="menu_add_account">新增帐户</string>
@@ -120,7 +120,7 @@
   <string name="choose_list_label">选择一个列表：</string>
   <string name="invite_instruction">输入用户名以从联系人添加。</string>
   <string name="invite_label">发送邀请</string>
-  <string name="provider_full_name_xmpp">Jabber/XMPP</string>
+  <string name="provider_full_name_xmpp">Qiixin Account</string>
   <string name="account_setup_title">Account Setup</string>
   <string name="encryption_and_anonymity_title">Encryption and Anonymity</string>
   <string name="hide_offline_contacts">隐藏离线联系人</string>
@@ -259,7 +259,7 @@
   <string name="menu_contact_list">联系人列表</string>
   <string name="menu_view_encrypt_chat">加密On/Off</string>
   <string name="use_tor">通过Tor连接（需要Orbot应用程序）</string>
-  <string name="app_name">Gibberbot</string>
+  <string name="app_name">启信</string>
   <string name="welcome_first">第一次使用Gibberbot？</string>
   <string name="welcome_skip">Can\'t迫不及待地开始了吗？</string>
   <string name="welcome_about">关于Gibberbot</string>

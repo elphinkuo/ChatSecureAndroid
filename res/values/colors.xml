@@ -31,7 +31,11 @@
     <color name="soft_grey">#FF777777</color>
     <color name="background_light">#FFEFEFEF</color>
     <color name="background_med">#FFdddddd</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    
     <color name="background_dark">#FF343434</color>
+    
     
      <!-- A light Holo shade of blue -->
     <color name="holo_blue_light">#cc33b5e5</color>
@@ -79,5 +83,23 @@
     <color name="contact_status_avatar_overlay">#aa555555</color>
     
     <color name="background_gray">#565552</color>
+    
+        <drawable name="screen_background_light">#ffffffff</drawable>
+
+    <color name="background_light">#ffffffff</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="hint_foreground_dark">#808080</color>
+    <color name="dim_foreground_light">#323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_dark_inverse">#ff000000</color>
     
 </resources>

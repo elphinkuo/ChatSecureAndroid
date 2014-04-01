@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_view_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@drawable/splash_layers"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <ImageButton
+        android:id="@+id/guide_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@android:color/transparent"
+        android:src="@drawable/event_banner_close2" />
+
+    <!--
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/guide_bottom_dot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+    -->
+
+</merge>

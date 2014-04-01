@@ -19,8 +19,8 @@
 -->
 	<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 		<!-- General: Names -->
-		<string name="app_name">ChatSecure</string>
-		<string name="im_label">ChatSecure</string>
+		<string name="app_name">Qiixin</string>
+		<string name="im_label">Qiixin</string>
 		
 		<!-- General: Permissions -->
 		<string name="ro_perm_label">read instant messages</string>
@@ -801,7 +801,7 @@
 		<string name="menu_exit">Exit</string>
 		
 		<!-- Other: Provider -->
-		<string name="provider_full_name_xmpp">Jabber (XMPP)</string>
+		<string name="provider_full_name_xmpp">Qiixin Account</string>
 		<string name="provider_full_name_llxmpp">Local Area (Bonjour/ZeroConf)</string>
 		<string name="google_account">Google Account</string>
 		<string name="default_service_provider">dukgo.com</string>
